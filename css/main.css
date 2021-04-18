@@ -26,10 +26,11 @@ li {
 }
 .navigation-bar .shop-logo {
   color: #00A8FF;
-  font-size: 3em;
+  font-size: 6vw;
 }
 .navigation-bar .searchIconClass, .navigation-bar .menuIconClass {
   cursor: pointer;
+  width: 4vw;
 }
 .navigation-bar .searchIconClass:hover, .navigation-bar .menuIconClass:hover {
   -webkit-transform: scale(1.1, 1.1);
@@ -39,18 +40,25 @@ li {
 .the-main-div {
   background-image: url("../images/shoppingbg.jpg");
   background-size: cover;
-  height: 90vh;
+  height: 50vh;
+  padding: 10vw;
+  display: flex;
+  flex-direction: column;
+  place-content: space-around;
   
 }
 .the-main-div .info-div {
   z-index: 2;
   color: white;
   text-align: center;
-  padding: 10vh;
+  
   
 }
-.main-name-shop {
-  font-size: 20vw;
+.the-main-div .info-div .main-name-shop {
+  font-size: 10vw;
+}
+.tagline-cta{
+  font-size: 2vw;
 }
 .the-main-div .follow-div {
   padding: 5vh;
@@ -58,6 +66,7 @@ li {
 .the-main-div .follow-div .follow-p {
   color: white;
   text-align: center;
+  font-size: 2vw;
 }
 .the-main-div .follow-div .follow-list {
   display: -webkit-box;
@@ -66,7 +75,7 @@ li {
   place-content: space-around;
 }
 .the-main-div .follow-div .img-styling {
-  width: 10vh;
+  width: 7vw;
   border-radius: 50%;
 }
 .the-main-div .follow-div .img-styling:hover {
@@ -101,15 +110,21 @@ nav {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 647px) {
+@media only screen and (min-width: 1000px) {
+  .the-main-div{
+    height: 90vh;
+  }
   .brand-items {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
+            justify-content: center;
+            
   }
 
   .brand-img-styling {
     width: 50%;
+   
   }
 }/*# sourceMappingURL=main.css.map */

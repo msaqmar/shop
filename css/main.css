@@ -37,7 +37,7 @@ li {
 }
 
 .the-main-div {
-  background-image: url("/images/shoppingbg.jpg");
+  background-image: url("../images/shoppingbg.jpg");
   background-size: cover;
   height: 90vh;
 }

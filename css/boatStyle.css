@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+body {
+  background-color: #2B2828;
+  font-family: 'poppins';
+}
+
+*{
+  margin: 0;
+  border: 0;
+}
+
+.top-bar{
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+
+}
+
+.top-bar img{
+  height: 100%;
+  
+}
+
+#appleLogo{
+  height: 80%;
+}
+
+.boat-product-sec{
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 10px;
+  justify-content: center;
+
+ 
+}
+
+ .product-div{
+  background-color: white;
+  width: 40%;
+  padding: 5px;
+  margin: 1%;
+}
+.product-div:hover{
+  transform: scale(1.03,1.03);
+  cursor: pointer;
+}
+.apple-product-div{
+  background-color: silver;
+  width: 40vw;
+  padding: 10px;
+  margin: 1%;
+}
+.apple-product-div:hover{
+  transform: scale(1.03,1.03);
+  cursor: pointer;
+}
+
+
+.boat-product-sec p{
+  color: red;
+}
+.img-prod{
+  width: 100%;
+  background-color: silver;
+}
+
+
+@media only screen and (min-width: 647px){
+  .boat-product-sec{
+   flex-flow: row wrap;
+  }
+  
+} 

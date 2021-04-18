@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+    .shop-logo{
+        color: #00A8FF;  
+        font-size: 3em;
+            
+    }
+
+    .searchIconClass, .menuIconClass{
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1,1.1);
+            
+        }
+    }
+    
+    
+}
+.the-main-div{
+    background-image: url("/images/shoppingbg.jpg");
+    background-size: cover;
+    height: 90vh;
+
+    .info-div{
+        z-index: 2;
+        color: white;
+        text-align: center;
+        padding: 10vh;
+
+        .main-name-shop{
+            font-size: 20vh;  
+              
+        }
+    
+    
+    }
+    .follow-div{
+        padding: 5vh;
+        
+
+    .follow-p{
+        color: white;
+        text-align: center;
+    }
+    .follow-list{
+        display: flex;
+        place-content: space-around;
+
+        
+    }
+    .img-styling{
+        width: 10vh;
+        border-radius: 50%;
+
+        &:hover{
+            transform: scale(1.1,1.1);
+            cursor: pointer;
+        }
+        
+    }
+}
+}
+
+
+nav{
+    display: none;
+}
+
+.brand-items{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    
+}
+.brand-img-styling{
+    width: 100%;
+    
+    &:hover{
+        filter: brightness(200%);
+        transform: scale(1.01,1.01);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 647px) {
+    .brand-items{
+        flex-flow: row wrap;
+    }
+    .brand-img-styling{
+        width: 50%;
+    }
+    
+}
+

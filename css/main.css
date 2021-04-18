@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.navigation-bar .shop-logo {
+  color: #00A8FF;
+  font-size: 3em;
+}
+.navigation-bar .searchIconClass, .navigation-bar .menuIconClass {
+  cursor: pointer;
+}
+.navigation-bar .searchIconClass:hover, .navigation-bar .menuIconClass:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.the-main-div {
+  background-image: url("/images/shoppingbg.jpg");
+  background-size: cover;
+  height: 90vh;
+}
+.the-main-div .info-div {
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 10vh;
+}
+.the-main-div .info-div .main-name-shop {
+  font-size: 20vh;
+}
+.the-main-div .follow-div {
+  padding: 5vh;
+}
+.the-main-div .follow-div .follow-p {
+  color: white;
+  text-align: center;
+}
+.the-main-div .follow-div .follow-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-around;
+}
+.the-main-div .follow-div .img-styling {
+  width: 10vh;
+  border-radius: 50%;
+}
+.the-main-div .follow-div .img-styling:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+}
+
+.brand-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0px;
+}
+
+.brand-img-styling {
+  width: 100%;
+}
+.brand-img-styling:hover {
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+  -webkit-transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 647px) {
+  .brand-items {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+
+  .brand-img-styling {
+    width: 50%;
+  }
+}/*# sourceMappingURL=main.css.map */

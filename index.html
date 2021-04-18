@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Shop</title>
+</head>
+<body>
+    <div class="navigation-bar">
+       <img class="searchIconClass" src="images/searchbar.svg" alt="search-bar">  
+            <h1 class="shop-logo">.shop</h1>
+            <img class="menuIconClass" src="images/navbaricon.svg" alt="navigation-icon">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+            </nav>
+    </div>
+    
+    <div class="the-main-div">
+        <div class="info-div">
+            <h1 class="main-name-shop">.shop</h1>
+            <hr style="background-color:white; border: none; height: 1vh;">
+            <p class="tagline-cta">Shop on all categories</p>
+        </div>
+            <div class="follow-div">
+                <p class="follow-p">Follow us</p>
+                <ul class="follow-list">
+                    <li><img class="img-styling" src="images/instalogo.png" alt="instagram"></li>
+                    <li><img class="img-styling" src="images/twitterlogo.png" alt="twitter"></li>
+                    <li><img class="img-styling" src="images/Facebook-logo.png" alt="facebook"></li>
+                </ul>
+            </div>
+    </div>
+        
+
+   
+        <div class="brand-section">
+            <div class="brand-items">
+                <img class="brand-img-styling" src="images/boat/boatpromo.jpg" alt="boat" onclick="gotoBoat()">
+                <img class="brand-img-styling" src="images/apple/applemain.jpg" alt="apple" onclick="gotoApple()">
+            </div>
+        </div>
+    
+</body>
+<script>
+    function gotoBoat(){
+        window.location.href = "boatPage.html";
+    }
+    function gotoApple(){
+        window.location.href = "apple.html";
+    }
+</script>
+</html>

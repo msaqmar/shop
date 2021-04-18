@@ -40,15 +40,17 @@ li {
   background-image: url("../images/shoppingbg.jpg");
   background-size: cover;
   height: 90vh;
+  
 }
 .the-main-div .info-div {
   z-index: 2;
   color: white;
   text-align: center;
   padding: 10vh;
+  
 }
-.the-main-div .info-div .main-name-shop {
-  font-size: 20vh;
+.main-name-shop {
+  font-size: 20vw;
 }
 .the-main-div .follow-div {
   padding: 5vh;

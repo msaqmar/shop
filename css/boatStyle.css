@@ -84,7 +84,7 @@ body {
    place-items: center;
 } 
 
-  .product-div{
+  .product-div, .apple-product-div{
     width: 80%;
     place-content: space-between;
   }
